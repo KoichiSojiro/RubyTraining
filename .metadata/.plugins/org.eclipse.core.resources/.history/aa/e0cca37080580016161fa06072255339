@@ -1,0 +1,7 @@
+value = "cat"
+value.sub("at", "ote")
+puts value
+
+value = "abc abc"
+value.gsub("abc", "---")
+puts value

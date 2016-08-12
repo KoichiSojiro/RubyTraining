@@ -1,0 +1,21 @@
+string_original = "Thtring, pleathe!"
+puts "Original string is \"#{string_original}\""
+print "input character to fix the wording error: "
+user_input = gets.chomp
+my_string = user_input.to_str
+puts "Your string is: #{my_string}"
+
+if my_string.include? "s"
+  #string_original.gsub!(/s/, "th")
+  string_original.sub!("s", "th")
+  puts string_original
+else
+  puts "Nothing to do here!"
+end
+
+value = "cat"
+value.sub!("at", "ote")
+puts value
+value = "bird"
+value = value.sub("ird", "ark")
+puts value

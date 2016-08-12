@@ -1,0 +1,3 @@
+value = "cat"
+value.sub("at", "ote")
+puts value

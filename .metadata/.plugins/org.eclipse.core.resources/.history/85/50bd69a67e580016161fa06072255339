@@ -1,0 +1,11 @@
+print "Thtring, pleathe!: "
+user_input = gets.chomp
+my_string = user_input.to_str
+puts "Your string is: #{my_string}"
+
+if my_string.include? "s"
+  my_string.gsub!(/s/, "th")
+  puts my_string
+else
+  puts "Nothing to do here!"
+end

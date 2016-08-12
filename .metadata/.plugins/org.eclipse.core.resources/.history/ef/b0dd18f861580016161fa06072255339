@@ -1,0 +1,9 @@
+print "What's your name?"
+name = gets.chomp
+name.upcase
+
+print "What city are you from?"
+city = gets.chomp
+city.upcase
+
+puts "Hello #{first_name} from #{city}!"

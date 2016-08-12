@@ -1,0 +1,5 @@
+# print() will not separate in lines
+prints "Hello"
+prints "World!!!"
+
+# print() will not separate in lines

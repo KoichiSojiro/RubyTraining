@@ -1,0 +1,14 @@
+string_original = "Thtring, pleathe!"
+puts "Original string is \"#{string_original}\""
+print "input character to fix the wording error: "
+user_input = gets.chomp
+my_string = user_input.to_str
+puts "Your string is: #{my_string}"
+
+if my_string.include? "s"
+  puts "ok"
+  a = string_original.gsub!(/s/, "th")
+  puts a
+else
+  puts "Nothing to do here!"
+end

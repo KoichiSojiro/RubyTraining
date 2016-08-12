@@ -1,0 +1,13 @@
+print "Thtring, pleathe!: "
+user_input = gets.chomp
+puts "Your string is: #{user_input}"
+user_input.downcase!
+
+my_string = user_input.downcase!
+puts "Your string is: #{my_string}"
+
+if user_input.include? "s"
+  user_input.gsub!(/s/, "th")
+else
+  puts "Nothing to do here!"
+end

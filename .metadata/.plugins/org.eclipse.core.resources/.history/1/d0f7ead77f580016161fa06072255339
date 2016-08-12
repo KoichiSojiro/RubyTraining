@@ -1,0 +1,7 @@
+value = "cat"
+value.sub!("at", "ote")
+puts value
+
+value = "birsd"
+value = value.sub("ird", "ark")
+puts value
